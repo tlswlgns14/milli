@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <meta content="0.9.7" name="Sigil version" />
+    <dc:identifier opf:scheme="ISBN"></dc:identifier>
+    <dc:title>샘플</dc:title>
+    <dc:creator opf:role="aut">독서연구소</dc:creator>
+    <dc:language>ko</dc:language>
+    <dc:date opf:event="modification"></dc:date>
+    <dc:identifier id="BookId" opf:scheme="UUID"></dc:identifier>
+    <meta name="cover" content="cover.jpg" />
+    <meta property="rendition:spread">none</meta>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="style.css" href="Styles/style.css" media-type="text/css"/>
+    <item id="common.js" href="Scripts/common.js" media-type="text/javascript" />
+    <item id="intro.js" href="Scripts/intro.js" media-type="text/javascript" />
+    <item id="main.js" href="Scripts/main.js" media-type="text/javascript" />
+    <item id="quiz.js" href="Scripts/quiz.js" media-type="text/javascript" />
+    <item id="micromodal.min.js" href="Scripts/micromodal.min.js" media-type="text/javascript" />
+    <item id="KoPubBatangLight.ttf" href="Fonts/KoPubBatangLight.ttf" media-type="application/x-font-ttf"/>
+    <item id="KoPubDotumLight.ttf" href="Fonts/KoPubDotumLight.ttf" media-type="application/x-font-ttf"/>
+    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="KoPubDotumBold.ttf" href="Fonts/KoPubDotumBold.ttf" media-type="application/x-font-ttf"/>
+    <item id="KoPubBatangBold.ttf" href="Fonts/KoPubBatangBold.ttf" media-type="application/x-font-ttf"/>
+    <item id="intro.xhtml" href="Text/intro.xhtml" media-type="application/xhtml+xml"/>
+    <item id="main.xhtml" href="Text/main.xhtml" media-type="application/xhtml+xml"/>
+    <item id="quiz.xhtml" href="Text/quiz.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="intro.xhtml"/>
+    <itemref idref="main.xhtml"/>
+    <itemref idref="quiz.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="cover" title="표지" href="Text/cover.xhtml"/>
+  </guide>
+</package>

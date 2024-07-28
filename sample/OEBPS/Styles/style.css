@@ -1,0 +1,635 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family:'batang-L';
+	font-style:normal;
+	font-weight:normal;
+	src:url('../Fonts/KoPubBatangLight.ttf')
+}
+
+@font-face {
+	font-family:'dotum-L';
+	font-style:normal;
+	font-weight:normal;
+	src: url('../Fonts/KoPubDotumLight.ttf')
+}
+
+@font-face {
+	font-family:'dotum-B';
+	font-style:normal;
+	font-weight:normal;
+	src: url('../Fonts/KoPubDotumBold.ttf')
+}
+@font-face {
+	font-family:'batang-b';
+	font-style:normal;
+	font-weight:bold;
+	src: url('../Fonts/KoPubBatangBold.ttf')
+}
+/* 기본 설정. 아시아 외 언어의 글자(단어X) 단위 줄바꿈은 word-break:break-all */
+* {
+    font-family:'batang-L','Serif','dotum-L','Sans-serif';
+    text-align:justify;
+    word-wrap:break-word;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+
+/* 본문 */
+h1.hide{
+	display:none;
+}
+h2.hide{
+	display:none;
+}
+p {
+	font-size:1em;
+	line-height:1.8em;
+	text-indent:0em;
+	margin:0;
+	text-align:justify
+}
+
+.num{
+	font-family:inherit !important;
+	color:inherit !important;
+	font-size:0.975em;
+}
+.margin-start {
+	margin-top:8em
+}
+
+.chap-box-up{
+	background-image: url('../Images/line.png');
+	background-repeat: repeat-x;
+	padding-top:0.5em;
+}
+.chap-box-down{
+	background-image: url('../Images/line.png');
+	background-repeat: repeat-x;
+	padding-top:1em;
+}
+.chap-title{
+	font-family:'dotum-B';
+	text-align:center;
+	padding-bottom:1em;
+	padding-top:1em;	
+	}
+
+.s-title{
+	text-align:center;
+}
+.ss-title{
+	font-size:0.95em;
+	font-family:'dotum-B';
+}
+.source{
+	font-size:0.7em;
+	font-family:'dotum-L';
+}
+.li{
+	text-indent: -1em !important;
+	margin-left:1em;
+}
+/*박스*/
+.box{
+	border:1px dashed #000000;
+	padding:0.5em;
+}
+
+.box-title{
+	font-size:0.9em;
+	font-family:'dotum-B';
+}
+
+.box-txt{
+	font-family:'dotum-L';
+	font-size:0.9em;
+}
+.box-txt-li{
+	font-family:'dotum-L';
+	font-size:0.9em;
+	text-indent: -1em !important;
+	margin-left:1em;
+}
+.dot{
+	font-family:inherit !important;
+	color:#e83e2f;
+}
+.box-title-big{
+	font-family:'dotum-B';
+	font-size:1.1em;
+	color:#e83e2f;
+	text-align:center;
+}
+.box-txt-li2{
+	font-size:0.9em;
+	text-indent: -1em !important;
+	margin-left:1em;
+}
+/* 운동처방*/
+.outer-box {
+	background-image: url('../Images/box-bg.png');
+	padding:1em;
+}
+.inner-box {
+	background:#ffffff;
+	padding:0.5em;
+	border-radius:1em;
+}
+.do-link{
+	font-family:'dotum-B';
+	color: #6dbb9e;
+	font-size:0.8em;
+	text-indent:0 !important;
+	text-align:center;
+}
+.do-info{
+	font-family:'dotum-B';
+	color: #e83e2f;
+	font-size:0.9em;
+	text-indent:0 !important;
+}
+
+.do-title{
+	font-family:'dotum-B';
+	color: #e83e2f;
+	text-indent:0 !important;
+}
+
+.do-txt{
+	font-family:'dotum-L';
+	color: #e83e2f;
+	font-size:0.85em;
+	text-indent:0 !important;
+}
+/*테이블*/
+table{
+	border-collapse:collapse;
+}
+td.CellOverride-1 {
+	width:2em;
+	border:1px solid #000000;
+	vertical-align:middle;
+}
+td.CellOverride-2 {
+	background-color:#fef0e9;
+	border:1px solid #000000;
+	vertical-align:middle;
+}
+td.CellOverride-3 {
+	width:3em;
+	border:1px solid #000000;
+	vertical-align:middle;
+}
+td.CellOverride-4 {
+	background-color:#fef0e9;
+	border:1px solid #000000;
+	vertical-align:middle;
+}
+td.CellOverride-5 {
+	background-color:#ffffff;
+	border:1px solid #000000;
+	vertical-align:top;
+}
+td.CellOverride-6 {
+	width:2em;
+	background-color:#ffffff;
+	border:1px solid #000000;
+	vertical-align:middle;
+}
+/*프롤로그*/
+.prologue{
+	background:#fdefe7;
+	padding:0.5em;
+}
+
+.title-etc1{
+	font-family:'dotum-B';
+	text-align:center;
+	padding-top:20px;
+}
+.title-etc2{
+	font-family:'dotum-B';
+	text-align:center;
+	padding-top:8px;
+}
+.title-etc3{
+	font-family:'dotum-B';
+	text-align:center;
+	line-height:1.4;
+}
+.title-line{
+	font-family:'dotum-B';
+	border-bottom:1px solid #000000;
+	padding-bottom:5px;
+}
+/*부록*/
+.appendix{
+	background:#eeefef;
+	padding:0.5em;
+}
+.appen-title{
+	font-family:'dotum-B';
+	text-indent:0em !important;
+	text-align:center;
+}
+.appen-line{
+	font-family:'dotum-B';
+	border-bottom:3px solid #000000;
+	border-top:3px solid #000000;
+	padding:5px;
+}
+/*차례*/
+
+.toc-title{
+	font-family:'dotum-L';
+	color:#e83e2f;
+	font-size:0.9em;
+	border: 1px solid #e83e2f;
+	border-radius:50%;
+	padding:1em 0.5em;
+}	
+.toc-part{
+	font-family:'batang-B';	
+	font-size:1.1em;
+	text-indent:-2em !important;
+	color:#e83e2f;
+	margin-left:2em;
+}
+.toc-part-no{
+	font-family:'batang-B';	
+	font-size:0.85em;
+	color:#e83e2f;
+}
+.toc-chap{
+	font-size:0.9em;
+	text-indent:-1em !important;
+	margin-left:3em;
+}	
+.toc-chap-s{
+	font-family:'dotum-L';
+	font-size:0.9em;
+	color:#e83e2f;
+	text-indent:0em !important;
+	margin-left:1em;
+}	
+.toc-etc  {
+	font-family:'dotum-L';
+	font-size:0.9em;
+	text-indent:0em !important;
+	margin-left:2em;
+}
+
+/*일러두기*/
+.notice p  {
+	font-size:0.85em;
+	text-indent:-1em !important;
+	margin-left:1em;
+}
+
+.notice .title {
+	font-size:0.9em;
+}
+.notice .l1 {
+	font-size:0.85em;
+	text-indent:-2em !important;
+	margin-left:4em;
+}
+/*에필로그*/
+.epilogue{
+	background:#e5ded6;
+	padding:0.5em;
+}
+/* 돋움체 */
+.dotum {
+	font-family:'dotum-L';
+	color:inherit !important
+}
+.dotum-bold {
+	font-family:'dotum-B';
+	font-weight:bold;
+	color:inherit !important
+}
+
+/* 괄호 */
+.par {
+	font-family:inherit !important;
+	font-size:0.85em
+}
+
+/* 영문 */
+
+.en{
+	font-family:inherit !important;
+	font-size:0.7em;
+	vertical-align:20%;
+	line-height:1.1;
+}
+.en-i{
+	font-family:inherit !important;
+	font-size:0.7em;
+	font-style:italic;
+	vertical-align:15%;
+	line-height:1.1;
+}
+
+/* 한자 */
+.ch {
+	font-family:inherit !important;
+	font-size:0.7em;
+	vertical-align:20%;
+	line-height:1.1;
+}
+
+
+/* 크기 */
+.f09 {
+    font-size:0.9em
+}
+.f07 {
+    font-size:0.7em
+}
+.f12 {
+    font-size:1.2em
+}
+
+/* 텍스트 기본 꾸미기 */
+.strong {
+	font-family:inherit !important;
+	font-weight:bold
+}
+
+.italic {
+	font-style:italic
+}
+
+.underline{
+	font-family:inherit !important;
+	color:inherit !important;
+}
+/* 정렬 */
+.left {
+	text-align:left
+}
+.right {
+	text-align:right;
+	text-indent:0 !important
+}
+.center {
+	text-align:center;
+	text-indent:0 !important
+}
+
+/* 인용문 */
+.quote{
+	font-size:0.9em;
+	text-indent:0 !important;
+	margin-left:1em;
+}
+
+/* 주석 - 본문, 각주 */
+.foot{
+	color:#e83e2f;
+}
+.foot-note{
+	margin-bottom:0.5em;
+}
+.foot-note p{
+	font-size:0.75em;
+}
+.foot-mark{
+	font-size:1.2em;
+	color:#e83e2f;
+	vertical-align:-15%;
+	line-height:1em;
+}
+/* 가로 구분선. 왼쪽 정렬시 margin-left:0 추가 */
+hr {
+	border-bottom:1px solid #000000;
+	margin-left:1.9em;
+}
+
+/* 저자 소개 */
+
+
+.author p {
+	font-size:0.9em;
+	line-height:1.6em;
+	text-indent:0 !important;
+}
+
+.author .name {
+	font-size:1.1em;
+	text-indent:0 !important;
+	margin-top:1em
+}
+.author .t-s {
+	font-size:0.8em;
+}
+
+/* 참고문헌 */
+
+.ref p{
+	font-size:0.825em;	
+	text-indent:-1em !important;
+	margin-left: 1em;
+}
+
+.ref .cat{
+	font-size:0.9em;	
+}
+
+
+/* 판권 */
+.copyright p {
+	font-size:0.8em;
+	text-indent:0 !important;
+	text-align:left;
+	word-break:break-all;
+}
+
+.copyright .title1 {
+	font-weight:'batang-M';
+	font-weight:bold;
+	font-size:1.2em;
+	line-height:1.3em;
+	text-indent:0 !important;	
+}
+
+.copyright .title2 {
+	font-size:0.9em;
+	line-height:1.3em;
+	text-indent:0 !important;
+}
+/* 저작권 */
+.copy-global p {
+	font-size:0.875em;
+	text-indent:0 !important;
+	text-align: left;
+}
+.copy-global .book{
+	font-family:'noto-R';
+	font-weight:'bold';
+}
+
+.copy-global .p-e{
+	font-family:'noto-R';
+	font-weight:'bold';
+}
+
+
+
+/* 표지 이미지 설정 */
+.cover {
+	width:100%;
+	height:100%;
+	text-indent:0;
+	text-align:center;
+	diplay:box;
+	box-orient:horizontal;
+	box-pack:center;
+	box-align:center;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	display:-moz-box;
+	-moz-box-orient:horizontal;
+	-moz-box-pack:center;
+	-moz-box-align:center
+}
+
+/* 이미지 설정 */
+img {
+	max-width:100%;
+	max-height:100%
+}
+
+.img-c{
+	margin:auto;
+	text-indent:0 !important;
+	text-align:center
+}
+
+.chap-img{
+	width:1.5em;
+	margin:auto;
+	text-indent:0 !important;
+	text-align:center
+}
+/* 이미지 캡션 */
+.caption  {
+	font-size:0.8em;
+	line-height:1.5em;
+	text-indent:0 !important;
+	text-align:center;
+}	
+.caption-s  {
+	font-family:'dotum-L';
+	font-size:0.75em;
+	line-height:1.5em;
+	text-indent:0 !important;
+	margin-left:1em;
+}	
+.caption-t{
+	font-family:'dotum-B';
+	font-size:0.8em;
+	line-height:1.5em;
+	text-indent:0 !important;
+	margin-left:1em;
+}	
+
+.caption-mark{
+	font-family:'dotum-B';
+	color:#e83e2f;
+}	
+
+/* a 태그 텍스트 변경 방지 */
+a:link,a:visited,a:active,a:hover,a:focus {
+	text-decoration: none;
+	font-family:inherit !important;
+	color:inherit !important
+}
+
+/* float 해제 */
+.clear {
+	clear:both
+}
+
+/* 강제 페이지 나눔(iOS 리디북스는 적용 안됨) */
+.break { -webkit-column-break-after: always; }
+
+.modal {
+  display: none;
+	position: fixed !important;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100% !important;
+	height: 100%;
+	overflow: auto;
+	background-color: #fff !important;
+	opacity: 0;
+	pointer-events: none;
+	transform: scale(0.98);
+	transition: .16s;
+}
+
+.modal .header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 24px;
+	height: 64px;
+}
+
+.modal .main {
+	padding: 24px;
+	height: calc(100vh - 64px);
+	overflow: auto;
+}
+
+.modal.is-open {
+	pointer-events: auto;
+	opacity: 1;
+	transform: scale(1);  
+}
+
+button {
+	background-color: transparent;
+	border: 0;
+	padding: 10px 16px;
+	font-size: 18px;
+	border-radius: 6px;
+	background-color: #f4f4f5;
+	cursor: pointer;
+}
+
+.chats {
+	height: 100%;
+}
+
+.chat {
+	display: flex;
+	padding: 0 20px 10px;
+}
+
+.chat .bubble {
+	background-color: rgb(241, 242, 246);
+	padding: 15px;
+	border-radius: 20px 20px 20px 0;
+	line-height: 1.5;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.chat.user {
+	flex-direction: row-reverse;
+}
+
+.chat.user .bubble {
+	border-radius: 20px 20px 0 20px;
+}

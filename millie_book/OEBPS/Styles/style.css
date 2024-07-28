@@ -1,0 +1,133 @@
+*{margin:0; padding:0; box-sizing:border-box; user-select:none; line-height:1.6em}
+*{outline:none; -webkit-tap-highlight-color:transparent}
+/* 비율 */
+.allWrap{position:absolute; top:0; left:0; width:100%; height:100vh; overflow:hidden; min-height:500px}
+.appWrap{position:relative; text-align:center; width:780px; height:1688px; transform-origin:left top; overflow-y:scroll; background-color:#FFF; box-shadow:0 0 25px rgba(0, 0, 0, 0.25)}
+/* common */
+button{background-color:transparent; border:none; outline:none; cursor:pointer}
+.allWrap *{-ms-overflow-style:none; scrollbar-width:none}
+.allWrap *::-webkit-scrollbar{display:none}
+/* bg */
+.bgImg{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:auto; height:100%; max-height:100vh !important; object-fit:cover !important}
+/* talk */
+.talkBox{position:relative; margin-top:150px; width:100%; padding:0 50px 100px 50px}
+.talkBox img{display:block; pointer-events:none}
+.talkTitle{position:absolute; top:45px; left:0; width:100%; text-align:center; font-size:1.75em; font-weight:bold}
+.talkChat{position:absolute; top:64px; z-index:1}
+.talkWho{position:absolute; top:10px; font-size:1.5em; font-weight:bold; white-space:nowrap}
+.talkGoNext{position:absolute; display:none; left:50%; transform:translateX(-50%); z-index:1}
+.talkGoNext img{pointer-events:none}
+.talkTouchArea{position:absolute; top:0; left:0; width:100%; height:100%}
+.talkTxt{position:relative; display:table; margin-bottom:20px !important}
+.talkOne{padding:20px 30px; font-size:1.5em; border-radius:20px; position:relative; max-width:calc(100% - 80px)}
+.talkTxtLeft .talkWho{left:90px}
+.talkTxtRight .talkWho{right:90px}
+.talkTxtLeft{margin:0 auto 0 0; text-align:left}
+.talkTxtRight{margin:0 0 0 auto; text-align:right}
+.talkTxtLeft .talkProfile{margin:0 auto 0 0}
+.talkTxtRight .talkProfile{margin:0 0 0 auto}
+.talkTxtLeft .talkChat{left:76px}
+.talkTxtRight .talkChat{right:76px}
+.talkTxtLeft .talkOne{margin-left:80px; background-color:#FFF; border:2px solid #cecece; text-align:left}
+.talkTxtRight .talkOne{margin-right:80px; background-color:#ffe860; border:2px solid #f7ce5c; text-align:left}
+.talkOne.talkImg{padding:0; background-color:transparent; border:none; box-shadow:none; z-index:1; display:block; position:relative}
+.talkOne.talkImg img{width:auto; max-width:100%}
+.talkPopup{position:absolute; top:0; left:0; width:100%; height:100%; display:none; z-index:1}
+.talkBack{position:absolute; top:0; left:0; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.5)}
+.talkPopupImg{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); display:none}
+.talkPopupClose{position:absolute; top:50px; right:50px}
+.talkPopupClose img{display:block; pointer-events:none}
+/* quiz */
+.quizBox *{color:#606060}
+.quizPop *{color:#606060}
+.quizResult *{color:#606060}
+.quizTitle{position:relative; z-index:1; margin-top:100px; font-size:4.5rem}
+.quizBox{position:absolute; top:0; left:0; width:100%; height:100%; padding-top:200px}
+.quizBtn{position:absolute; bottom:200px}
+.quizBtn{filter:grayscale(1)}
+.quizBtn.on{filter:grayscale(0)}
+.quizBtnO{left:124px}
+.quizBtnX{right:124px}
+.quizBtn img{display:block}
+.quizIndex{display:none} /* 페이징 쓰려면 살려라 */
+.quizTxtBox{position:absolute; top:calc(50% - 150px); left:0; transform:translateY(-50%); width:100%; text-align:center; padding:0 50px}
+.quizIcon{position:absolute; display:block; top:-65px; left:50%; transform:translateX(-50%); width:35px}
+.quizTxt{font-size:2rem}
+.quizLine{position:absolute; top:320px; left:50%; transform:translateX(-50%); width:65%; height:10px; background-color:#CCC; border-radius:100px; overflow:hidden !important}
+.quizLine::after{content:""; display:block; clear:both}
+.quizLineOne{height:100%; float:left; background-color:#606060}
+.quizPop{position:absolute; top:0; left:0; width:100%; height:100%; display:none; /** background-color:rgba(0, 0, 0, 0.5) **/}
+.quizPopBox{position:absolute; bottom:200px; left:50%; transform:translateX(-50%); width:680px; height:587px; background-color:#E8E8E8 !important; border-radius:30px; padding:50px; text-align:left; box-shadow: 0px 0px 10px #00000029}
+.quizPopTitle{font-size:2.5rem; text-align:left}
+.quizPopTitle img{width:53px; position:relative; top:12px}
+.quizPopTxt{margin-top:50px; height:280px; overflow-y:scroll; font-size:2rem; color:#414142; text-align:left}
+.quizPopTip{font-size:1.5rem; position:absolute; bottom:60px; left:0; width:100%; text-align:center}
+.quizPopTip img{position:relative; width:30px; top:10px}
+.quizNext{position:absolute; bottom:100px; right:100px; font-size:1.75rem}
+.quizNext h3{display:inline-block; color:#9A9A9A; pointer-events:none}
+.quizNext img{display:block}
+.quizResult{position:absolute; top:0; left:0; width:100%; height:100%; background-color:#FFF; padding-top:100px; display:none}
+.quizResultPer{width:680px; height:680px; border-radius:100%; position:absolute; top:510px; left:50%; transform:translateX(-50%); background-color:#f3f3f3}
+.quizResultPer::after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%; border-radius:100%; /** box-shadow:0 0 25px rgba(0, 0, 0, 0.25) inset **/}
+.quizResultOne{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:50%; height:50%; background:#FFF; border-radius:100%; /** box-shadow:0 0 25px rgba(0, 0, 0, 0.25) **/}
+.quizResultTitle{background-color:#AAAAAA; color:#FFF; border-radius:100px; position:absolute; top:300px; left:50%; transform:translateX(-50%); font-size:1.5rem; padding:10px 30px}
+.quizResultTxt{position:absolute; top:25%; left:0; width:100%; text-align:center; font-size:1.75rem}
+.quizScore{position:absolute; bottom:30%; left:0; width:100%; text-align:center; font-size:4rem}
+.quizRetry{position:absolute; bottom:100px; left:50%; transform:translateX(-50%)}
+.quizRetry img{display:block}
+.quizResultBox{display:none}
+.quizPopTitle .quixOxImgO{display:none}
+.quizPopTitle .quixOxImgX{display:inline-block}
+.quizPopTitle.on .quixOxImgO{display:inline-block}
+.quizPopTitle.on .quixOxImgX{display:none}
+.quizBox img{pointer-events:none}
+.quizPop img{pointer-events:none}
+.quizResult img{pointer-events:none}
+.appWrapQuiz img{pointer-events:none}
+/* ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ */
+/* main */
+.mainWrap{position:relative; width:100%; max-width:780px; margin:0 auto; padding:100px 50px}
+.mainWrap *{line-height:1.6em}
+.mainCon{position:relative; width:100%; margin-bottom:50px; text-align:left !important}
+/* title */
+.mainConTitle{text-align:center !important}
+.mainTitleNum{font-size:3.8rem; color:#606060; font-weight:bold}
+.mainTitle{font-size:2.4rem; color:#000; font-weight:bold; letter-spacing:-0.3rem}
+.mainTitleTag{font-size:1.5rem; color:#0095FF; margin-top:10px}
+/* text */
+.mainConTxt{font-size:1.7rem; color:#000}
+.mainConTxt button{font-size:inherit; color:inherit; font-weight:bold; background-color:#ffbb29; border-bottom:1px solid #000}
+/* img */
+.mainImg{display:block; width:100%}
+.mainImgTxt{margin-top:10px; font-size:1.1rem; color:#7C7C7C; text-align:left}
+.mainMinImg{position:relative; top:1px}
+/* gray */
+.mainConGray{font-size:1.7rem; color:#808080; font-style:italic}
+/* box */
+.mainConBox{position:relative; width:calc(100% - 100px); margin:0 auto 50px auto; padding:30px 50px; background-color:#ECEBF8; border-radius:30px}
+.mainConBox *{text-align:left !important}
+.mainBoxTitle{font-size:1.4rem; color:#5C709E; font-weight:bold; letter-spacing:-0.1em}
+.mainBoxTitle img{position:relative; top:-2px}
+.mainBoxTxt{font-size:1.3rem; color:#5C709E; margin-top:20px}
+/* 기존 모달 */
+/* .modal-bg {width: 100%;height: 100%;position: absolute; top: 0; left: 0; background: rgba(0, 0, 0, 0.6); display: none;}
+.modal-wrap {position:absolute; top:50%; left:50%; transform: translate(-50%, -50%); width: 680px; height: 680px; background-color: #fff; border-radius: 30px; display: none; overflow: hidden; padding: 309px 50px 50px 50px;}
+.modal-header {position:absolute; width:100%; top:0; left:0;}
+.modal-wrap .x-img { position: absolute; width: 27px; height: 27px; top: 50px; right: 50px;}
+.modal-wrap .modal-title {font-weight: bold; font-size: 5em; border-bottom: 1px solid #606060; padding-bottom: 40px; margin-top: 100px; left: 50%; transform: translateX(-50%); position: absolute;}
+.modal-wrap .modal-conten {text-align: left; width: 100%; height: 100%; font-size: 1.9em; margin: 0; overflow-y: auto;}
+.modal-wrap .miniTxt { font-size: 0.7em; text-align: left; margin-left: 0; margin-top: 10px;}
+.miniTxt {font-size: 0.7em; text-align:left; margin-left:0; margin-top: 10px;} */
+/* 신규모달 */
+.modal-wrap[role="dialog"] {position:fixed !important; top:0; left:0; display:none; align-items:center; justify-content:center; width:100vw; height: 100vh;}
+.modal-wrap[role="dialog"]::after {content: ""; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index:-1; background:rgba(0, 0, 0, 0.6);}
+.modal-wrap[role="dialog"] .modal-inner {position:relative; width: 680px; min-height: 680px; background-color: #fff; border-radius: 30px; overflow: hidden; padding:50px}
+.modal-wrap[role="dialog"] .modal-header {position:relative}
+.modal-wrap[role="dialog"] .x-img { position: absolute; width: 27px; height: 27px; top:0; right:0; cursor: pointer;}
+.modal-wrap[role="dialog"] .modal-title {text-align:left; font-weight:bold; font-size:5em; padding:0 0 50px 0; margin-bottom:50px}
+.modal-wrap[role="dialog"] .modal-conten {text-align: left; width: 100%;height: 370px; font-size: 1.9em; line-height: 1.4; margin: 0; overflow-y: auto;}
+.modal-wrap[role="dialog"] .miniTxt {font-size:0.7em; text-align:left; margin-left:0; margin-top:10px; margin-bottom: 50px; display:block;}
+.modal-wrap[role="dialog"] .modal-title::after{content:""; display:block; position:absolute; bottom:0; left:50%; transform:translateX(-50%); width:100%; height:1px; background-color:#A8A8A8}
+/* 뷰어를 위해 */
+.mainWrap{padding:100px 0}
+.mainConBox{width:100%}

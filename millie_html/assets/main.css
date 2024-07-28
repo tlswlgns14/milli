@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+.appWrap * {
+  line-height: 1.6em;
+}
+.appWrap p {
+  font-size: 1.688em;
+  text-align: left;
+  width: calc(100% - 100px);
+  margin: 0px auto 60px auto;
+}
+.appWrap img {
+  width: calc(100% - 100px);
+  margin: 0 auto;
+}
+.appWrap button {
+  font-size: 1em;
+  background-color: #ffbb28;
+  border-bottom: 2px solid #000;
+  font-weight: bold;
+}
+.appWrap h1 {
+  margin-top: 45px;
+  color: #626363;
+}
+.appWrap h2 {
+  margin-top: 10px;
+}
+.appWrap .hash {
+  color: #0095ff;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 5px;
+}
+.appWrap .firstTxt {
+  margin: 60px auto 60px auto;
+  width: calc(100% - 100px);
+}
+.appWrap .pointTxt {
+  font-size: 1.688em;
+  color: #808080;
+  text-align: left;
+  margin: 60px auto;
+  display: table;
+}
+.appWrap .grayImg {
+  /* margin-top: 60px; */
+}
+.appWrap .grayBox {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+  width: 600px;
+  height: 18px;
+}
+.appWrap .grayBox img {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 10px;
+  height: 12px;
+}
+.appWrap .grayBox p {
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #606060;
+  position: absolute;
+  top: 0;
+  left: 13px;
+}
+.appWrap .puple {
+  background-color: #ecebf8;
+  border-radius: 20px;
+  color: #5c709e;
+  width: calc(100% - 186px);
+  margin: 60px auto 0px auto;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 100px;
+}
+.appWrap .puple .imgandTxt {
+  width: calc(100% - 100px);
+  text-align: left;
+  margin: 0 auto;
+  font-size: 1.45em;
+}
+.appWrap .puple img {
+  width: 10px;
+  height: 12px;
+}
+.appWrap .puple p {
+  font-size: 1.25em;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.imgandTxt {
+  position: relative;
+}
+/* 모달 */
+.modal-bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+.modal-wrap {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 680px;
+  height: 680px;
+  background-color: #fff;
+  border-radius: 30px;
+  display: none;
+  overflow-y: scroll;
+}
+.modal-wrap .modal-topbox {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: calc(100% - 100px);
+  text-align: left;
+}
+.modal-wrap .x-img {
+  position: fixed;
+  width: 27px;
+  height: 27px;
+  top: 50px;
+  right: 50px;
+}
+.modal-wrap .modal-topbox .modal-title {
+  font-weight: bold;
+  font-size: 5em;
+  margin-top: 100px;
+  border-bottom: 1px solid #606060;
+  padding-bottom: 40px;
+}
+.modal-wrap .modal-conten {
+  margin-top: 295px;
+  font-size: 1.88em;
+  width: calc(100% - 100px);
+}

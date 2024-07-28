@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<head>
+<title>intro</title>
+<link href="../Styles/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body xml:lang="ko">
+  <div class="center" style="margin: 240px 0 0;font-size: 24px;">
+    <h1 style="font-size: 24px;word-break: keep-all;text-align: center;">로마사를 움직이는 12가지 힘</h1>
+    <button type="button" id="introModalOpen">📚 이 책이 궁금한 당신에게</button>
+  </div>
+
+  <div class="modal" id="introModal" role="dialog">
+    <div class="header">
+      <span>📚 이 책이 궁금한 당신에게</span>
+      <button type="button" id="introModalClose">✕</button>
+    </div>
+    <div class="main">
+      <div class="center">
+        <img alt="표지" src="../Images/cover.jpg" width="240"/>
+      </div>
+      <p class="center">...</p>
+      <div id="chats" class="chats"></div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="../Scripts/common.js"></script>
+  <script type="text/javascript" src="../Scripts/intro.js"></script>
+</body>
+</html>

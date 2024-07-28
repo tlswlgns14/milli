@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>quiz</title>
+<link href="./assets/style.css" rel="stylesheet" type="text/css">
+<script src="./assets/common.js"></script>
+</head>
+<body>
+    <div class="allWrap" style="background-image:url('./resources/bg.png')">
+        <!-- <img src="./resources/guide.png" alt="" class="commonGuide"> -->
+        <div class="appWrap">
+            <h1 class="quizTitle">북퀴즈 OX</h1>
+            <!-- 퀴즈 -->
+            <div class="quizBox">
+                <div class="quizIndex"></div>
+                <div class="quizLine"></div>
+                <div class="quizTxtBox">
+                    <img src="./resources/q.png" alt="" class="quizIcon">
+                    <h2 class="quizTxt"></h2>
+                </div>
+                <button class="quizBtn quizBtnO">
+                    <img src="./resources/o.png" alt="" class="quizOO">
+                    <img src="./resources/o_no.png" alt="" class="quizOX">
+                </button>
+                <button class="quizBtn quizBtnX">
+                    <img src="./resources/x.png" alt="" class="quizXO">
+                    <img src="./resources/x_no.png" alt="" class="quizXX">
+                </button>
+            </div>
+            <!-- 팝업 -->
+            <div class="quizPop">
+                <div class="quizPopBox">
+                    <h1 class="quizPopTitle"></h1>
+                    <h2 class="quizPopTxt"></h2>
+                    <h3 class="quizPopTip"></h3>
+                </div>
+                <button class="quizNext">
+                    <h3>다음</h3>
+                    <img src="./resources/way.png" alt="">
+                </button>
+            </div>
+            <!-- 결과 -->
+            <div class="quizResult">
+                <div class="quizResultTitle">퀴즈 결과</div>
+                <div class="quizResultPer">
+                    <div class="quizResultOne">
+                        <h3 class="quizResultTxt">다시 읽어볼까요?</h3>
+                        <h2 class="quizScore">80점</h2>
+                    </div>
+                </div>
+                <div class="quizResultBox quizResultBoxO"></div>
+                <div class="quizResultBox quizResultBoxX"></div>
+                <button class="quizRetry">
+                    <img src="./resources/reload.png" alt="">
+                    다시 풀기
+                </button>
+            </div>
+        </div>
+    </div>
+    <audio class="quizAudio quizAudioO" src="./resources/correct.mp3"></audio>
+    <audio class="quizAudio quizAudioX" src="./resources/wrong.mp3"></audio>
+    <script src="./assets/quiz.js"></script>
+</body>
+</html>

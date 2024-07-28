@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <meta content="0.9.7" name="Sigil version" />
+    <dc:identifier opf:scheme="ISBN"></dc:identifier>
+    <dc:title>샘플</dc:title>
+    <dc:creator opf:role="aut">독서연구소</dc:creator>
+    <dc:language>ko</dc:language>
+    <dc:date opf:event="modification"></dc:date>
+    <dc:identifier id="BookId" opf:scheme="UUID"></dc:identifier>
+    <meta name="cover" content="cover.jpg" />
+    <!-- 추가 시작 -->
+    <meta name="bg" content="bg.png" />
+
+    <meta name="eng_day3_touchBook_atlas_1" content="eng_day3_touchBook_atlas_1.png" />
+    <meta name="eng_day3_touchBook_atlas_2" content="eng_day3_touchBook_atlas_2.png" />
+    <meta name="eng_day3_touchBook_atlas_3" content="eng_day3_touchBook_atlas_3.png" />
+    <meta name="eng_day3_touchBook_atlas_4" content="eng_day3_touchBook_atlas_4.png" />
+    <meta name="eng_day3_touchBook_atlas_5" content="eng_day3_touchBook_atlas_5.png" />
+
+    <meta name="chat_img_1" content="chat_img_1.png" />
+    <meta name="chat_left" content="chat_left.png" />
+    <meta name="chat_right" content="chat_right.png" />
+    <meta name="guide" content="guide.png" />
+    <meta name="light" content="light.png" />
+    <meta name="o" content="o.png" />
+    <meta name="o_no" content="o_no.png" />
+    <meta name="profile1" content="profile1.png" />
+    <meta name="profile2" content="profile2.png" />
+    <meta name="q" content="q.png" />
+    <meta name="reload" content="reload.png" />
+    <meta name="right" content="right.png" />
+    <meta name="talk_go" content="talk_go.png" />
+    <meta name="talk_x" content="talk_x.png" />
+    <meta name="way" content="way.png" />
+    <meta name="wrong" content="wrong.png" />
+    <meta name="x" content="x.png" />
+    <meta name="x_no" content="x_no.png" />
+    <meta name="correctMp3" content="correct.mp3" />
+    <meta name="wrongMp3" content="wrong.mp3" />
+
+
+
+    <meta name="_110Body" content="_110Body.mp3" />
+    <meta name="_111ClapClapClapyourhands" content="_111ClapClapClapyourhands.mp3" />
+    <meta name="_112Stompstompstompyourfeet" content="_112Stompstompstompyourfeet.mp3" />
+    <meta name="_113Stretchstretchstretchyourarms" content="_113Stretchstretchstretchyourarms.mp3" />
+    <meta name="_114Shakeshakeshakeyourlegs" content="_114Shakeshakeshakeyourlegs.mp3" />
+    <meta name="_115Swayswayswayyourhips" content="_115Swayswayswayyourhips.mp3" />
+    <meta name="_116Putabigsmileonyourface" content="_116Putabigsmileonyourface.mp3" />
+    <meta name="click" content="click.mp3" />
+    <meta name="eop" content="eop.mp3" />
+    <meta name="eop1" content="eop1.mp3" />
+    <meta name="eop2" content="eop2.mp3" />
+    <meta name="Twinkle_Fantasy" content="Twinkle_Fantasy.mp3" />
+    <meta name="WT_AK_common_sfx_ebook_01" content="WT_AK_common_sfx_ebook_01.mp3" />
+    <meta name="WT_IB_common_bgm_0170db_1" content="WT_IB_common_bgm_0170db_1.mp3" />
+
+
+
+    <!-- 추가 끝 -->
+    <!-- J 시작 -->
+    <meta name="button" content="button.png" />
+    <meta name="check" content="check.png" />
+    <meta name="clock" content="clock.png" />
+    <meta name="daum" content="daum.png" />
+    <meta name="footer" content="footer.png" />
+    <meta name="gray" content="gray.png" />
+    <meta name="gray1_1" content="gray1_1.png" />
+    <meta name="gray1_2" content="gray1_2.png" />
+    <meta name="gray2_1" content="gray2_1.png" />
+    <meta name="gray2_2" content="gray2_2.png" />
+    <meta name="gray3_1" content="gray3_1.png" />
+    <meta name="gray3_2" content="gray3_2.png" />
+    <meta name="gray3_3" content="gray3_3.png" />
+    <meta name="gray4_1" content="gray4_1.png" />
+    <meta name="gray4_2" content="gray4_2.png" />
+    <meta name="gray4_3" content="gray4_3.png" />
+    <meta name="gray5_1" content="gray5_1.png" />
+    <meta name="gray5_2" content="gray5_2.png" />
+    <meta name="gray5_3" content="gray5_3.png" />
+    <meta name="image_main" content="image_main.png" />
+    <meta name="maru" content="maru.png" />
+    <meta name="normal" content="normal.png" />
+    <meta name="pin" content="pin.png" />
+    <meta name="popup_x" content="popup_x.png" />
+    <!-- J 끝 -->
+    <meta property="rendition:spread">none</meta>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="style.css" href="Styles/style.css" media-type="text/css"/>
+    <item id="common.js" href="Scripts/common.js" media-type="text/javascript" />
+    <item id="createjs.min.js" href="Scripts/createjs.min.js" media-type="text/javascript" />
+    <item id="eng_day3_touchBook.js" href="Scripts/eng_day3_touchBook.js" media-type="text/javascript" />
+    <item id="intro.js" href="Scripts/intro.js" media-type="text/javascript" />
+    <item id="main.js" href="Scripts/main.js" media-type="text/javascript" />
+    <item id="quiz.js" href="Scripts/quiz.js" media-type="text/javascript" />
+    <item id="micromodal.min.js" href="Scripts/micromodal.min.js" media-type="text/javascript" />
+    <item id="KoPubBatangLight.ttf" href="Fonts/KoPubBatangLight.ttf" media-type="application/x-font-ttf"/>
+    <item id="KoPubDotumLight.ttf" href="Fonts/KoPubDotumLight.ttf" media-type="application/x-font-ttf"/>
+    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="KoPubDotumBold.ttf" href="Fonts/KoPubDotumBold.ttf" media-type="application/x-font-ttf"/>
+    <item id="KoPubBatangBold.ttf" href="Fonts/KoPubBatangBold.ttf" media-type="application/x-font-ttf"/>
+    <item id="intro.xhtml" href="Text/intro.xhtml" media-type="application/xhtml+xml"/>
+    <item id="main1.xhtml" href="Text/main1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="main2.xhtml" href="Text/main2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="main3.xhtml" href="Text/main3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="main4.xhtml" href="Text/main4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="main5.xhtml" href="Text/main5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="main6.xhtml" href="Text/main6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="quiz.xhtml" href="Text/quiz.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg"/>
+    <!-- 추가 시작 -->
+    <item id="bg.png" href="Images/bg.png" media-type="image/png"/>
+
+    <item id="eng_day3_touchBook_atlas_1.png" href="Images/eng_day3_touchBook_atlas_1.png" media-type="image/png"/>
+    <item id="eng_day3_touchBook_atlas_2.png" href="Images/eng_day3_touchBook_atlas_2.png" media-type="image/png"/>
+    <item id="eng_day3_touchBook_atlas_3.png" href="Images/eng_day3_touchBook_atlas_3.png" media-type="image/png"/>
+    <item id="eng_day3_touchBook_atlas_4.png" href="Images/eng_day3_touchBook_atlas_4.png" media-type="image/png"/>
+    <item id="eng_day3_touchBook_atlas_5.png" href="Images/eng_day3_touchBook_atlas_5.png" media-type="image/png"/>
+
+    <item id="chat_img_1.png" href="Images/chat_img_1.png" media-type="image/png"/>
+    <item id="chat_left.png" href="Images/chat_left.png" media-type="image/png"/>
+    <item id="chat_right.png" href="Images/chat_right.png" media-type="image/png"/>
+    <item id="guide.png" href="Images/guide.png" media-type="image/png"/>
+    <item id="light.png" href="Images/light.png" media-type="image/png"/>
+    <item id="o.png" href="Images/o.png" media-type="image/png"/>
+    <item id="o_no.png" href="Images/o_no.png" media-type="image/png"/>
+    <item id="profile1.png" href="Images/profile1.png" media-type="image/png"/>
+    <item id="profile2.png" href="Images/profile2.png" media-type="image/png"/>
+    <item id="q.png" href="Images/q.png" media-type="image/png"/>
+    <item id="reload.png" href="Images/reload.png" media-type="image/png"/>
+    <item id="right.png" href="Images/right.png" media-type="image/png"/>
+    <item id="talk_go.png" href="Images/talk_go.png" media-type="image/png"/>
+    <item id="talk_x.png" href="Images/talk_x.png" media-type="image/png"/>
+    <item id="way.png" href="Images/way.png" media-type="image/png"/>
+    <item id="wrong.png" href="Images/wrong.png" media-type="image/png"/>
+    <item id="x.png" href="Images/x.png" media-type="image/png"/>
+    <item id="x_no.png" href="Images/x_no.png" media-type="image/png"/>
+    <item id="wrong.mp3" href="Sounds/wrong.mp3" media-type="mp3"/>
+
+
+
+    <item id="_110Body.mp3" href="Sounds/_110Body.mp3" media-type="mp3"/>
+    <item id="_111ClapClapClapyourhands.mp3" href="Sounds/_111ClapClapClapyourhands.mp3" media-type="mp3"/>
+    <item id="_112Stompstompstompyourfeet.mp3" href="Sounds/_112Stompstompstompyourfeet.mp3" media-type="mp3"/>
+    <item id="_113Stretchstretchstretchyourarms.mp3" href="Sounds/_113Stretchstretchstretchyourarms.mp3" media-type="mp3"/>
+    <item id="_114Shakeshakeshakeyourlegs.mp3" href="Sounds/_114Shakeshakeshakeyourlegs.mp3" media-type="mp3"/>
+    <item id="_115Swayswayswayyourhips.mp3" href="Sounds/_115Swayswayswayyourhips.mp3" media-type="mp3"/>
+    <item id="_116Putabigsmileonyourface.mp3" href="Sounds/_116Putabigsmileonyourface.mp3" media-type="mp3"/>
+    <item id="click.mp3" href="Sounds/click.mp3" media-type="mp3"/>
+    <item id="eop.mp3" href="Sounds/eop.mp3" media-type="mp3"/>
+    <item id="eop1.mp3" href="Sounds/eop1.mp3" media-type="mp3"/>
+    <item id="eop2.mp3" href="Sounds/eop2.mp3" media-type="mp3"/>
+    <item id="Twinkle_Fantasy.mp3" href="Sounds/Twinkle_Fantasy.mp3" media-type="mp3"/>
+    <item id="WT_AK_common_sfx_ebook_01.mp3" href="Sounds/WT_AK_common_sfx_ebook_01.mp3" media-type="mp3"/>
+    <item id="WT_IB_common_bgm_0170db_1.mp3" href="Sounds/WT_IB_common_bgm_0170db_1.mp3" media-type="mp3"/>
+
+    
+
+    <item id="correct.mp3" href="Sounds/correct.mp3" media-type="mp3"/>
+    <!-- 추가 끝 -->
+    <!-- J 시작 -->
+    <item id="main.css" href="Styles/main.css" media-type="text/css"/>
+    <item id="cover.css" href="Styles/cover.css" media-type="text/css"/>
+    <item id="cover.js" href="Scripts/cover.js" media-type="text/javascript" />
+    <item id="button.png" href="Images/button.png" media-type="image/png"/>
+    <item id="check.png" href="Images/check.png" media-type="image/png"/>
+    <item id="clock.png" href="Images/clock.png" media-type="image/png"/>
+    <item id="daum.png" href="Images/daum.png" media-type="image/png"/>
+    <item id="footer.png" href="Images/footer.png" media-type="image/png"/>
+    <item id="gray.png" href="Images/gray.png" media-type="image/png"/>
+    <item id="gray1_1.png" href="Images/gray1_1.png" media-type="image/png"/>
+    <item id="gray1_2.png" href="Images/gray1_2.png" media-type="image/png"/>
+    <item id="gray2_1.png" href="Images/gray2_1.png" media-type="image/png"/>
+    <item id="gray2_2.png" href="Images/gray2_2.png" media-type="image/png"/>
+    <item id="gray3_1.png" href="Images/gray3_1.png" media-type="image/png"/>
+    <item id="gray3_2.png" href="Images/gray3_2.png" media-type="image/png"/>
+    <item id="gray3_3.png" href="Images/gray3_3.png" media-type="image/png"/>
+    <item id="gray4_1.png" href="Images/gray4_1.png" media-type="image/png"/>
+    <item id="gray4_2.png" href="Images/gray4_2.png" media-type="image/png"/>
+    <item id="gray4_3.png" href="Images/gray4_3.png" media-type="image/png"/>
+    <item id="gray5_1.png" href="Images/gray5_1.png" media-type="image/png"/>
+    <item id="gray5_2.png" href="Images/gray5_2.png" media-type="image/png"/>
+    <item id="gray5_3.png" href="Images/gray5_3.png" media-type="image/png"/>
+    <item id="image_main.png" href="Images/image_main.png" media-type="image/png"/>
+    <item id="maru.png" href="Images/maru.png" media-type="image/png"/>
+    <item id="normal.png" href="Images/normal.png" media-type="image/png"/>
+    <item id="pin.png" href="Images/pin.png" media-type="image/png"/>
+    <item id="popup_x.png" href="Images/popup_x.png" media-type="image/png"/>
+    <!-- J 끝 -->
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="intro.xhtml"/>
+    <itemref idref="main1.xhtml"/>
+    <itemref idref="main2.xhtml"/>
+    <itemref idref="main3.xhtml"/>
+    <itemref idref="main4.xhtml"/>
+    <itemref idref="main5.xhtml"/>
+    <itemref idref="main6.xhtml"/>
+    <itemref idref="quiz.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="cover" title="표지" href="Text/cover.xhtml"/>
+  </guide>
+</package>

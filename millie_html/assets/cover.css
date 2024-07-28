@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.main .firstTxt {
+  margin-top: 45px;
+  font-size: 2em;
+  font-weight: bold;
+}
+.main .firstImg {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.main .romaTxt {
+  margin: 150px auto 0px;
+  background-color: #4e6bff;
+  color: #fff;
+  font-size: 3.4em;
+  font-weight: bold;
+  width: calc(100% - 100px);
+}
+.main .smallTxt {
+  font-size: 1.3em;
+  margin-top: 10px;
+  color: #bbbbbb;
+}
+.main .grayTxt {
+  position: relative;
+  margin-top: 50px;
+  display: block;
+  color: #737374;
+  background-color: #e8e8e8;
+  font-size: 1.7em;
+  padding: 22px 75px;
+}
+.main .grayTxt img {
+  position: absolute;
+  top: 5px;
+  left: 44px;
+}
+.main .clock {
+  margin-top: 30px;
+}
+.main .line {
+  width: 520px;
+  height: 30px;
+  border-bottom: 1px solid #ddd;
+  margin: 0 auto;
+}
+.main .bookIntro {
+  margin-left: 50px;
+  margin-top: 60px;
+  text-align: left;
+  color: #717272;
+  font-size: 2.88em;
+  font-weight: bold;
+  width: calc(100% - 140px);
+}
+.main .bookIntrocon {
+  margin-left: 70px;
+  margin-top: 21px;
+  text-align: left;
+  font-size: 1.7em;
+  font-weight: bold;
+  width: calc(100% - 140px);
+}
+.footer {
+  margin-top: 77px;
+  background-image: url(./img/footer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 156px;
+}
+
+.footer .list1 {
+  display: block;
+  padding-left: 50px;
+  padding-top: 75px;
+  text-align: left;
+  color: #fff;
+}
+.footer .box {
+  width: 599px;
+  height: 44px;
+  background-color: #e5e5e4;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 28px;
+  position: relative;
+  cursor: pointer;
+  color: #5c4c97;
+}
+.footer .box .tgof {
+  display: block;
+}
+.footer .box .tgon {
+  display: none;
+}
+.footer .tgofim {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  width: 18px;
+  height: 15px;
+}
+.footer .tgofdv {
+  position: absolute;
+  left: 61%;
+  top: 50%;
+  transform: translate(-60%, -50%);
+  width: 521px;
+  height: 22px;
+  background-color: #d1d1d1ef;
+}
+.footer .tgonim {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  width: 15px;
+  height: 15px;
+}
+.footer .tgontxt {
+  position: absolute;
+  top: 10px;
+  left: 53px;
+}
+.footer .list2 {
+  display: block;
+  padding-left: 50px;
+  padding-top: 75px;
+  text-align: left;
+  color: #fff;
+}
+
+.footer .list3 {
+  display: block;
+  padding-left: 50px;
+  padding-top: 75px;
+  text-align: left;
+  color: #fff;
+}
+.footer .list3 .list3Txt {
+  margin-top: 28px;
+  width: calc(100% - 100px);
+  text-align: left;
+  color: #e5e5e4;
+  font-size: 1.88em;
+}
+.footer .nextBtn {
+  position: relative;
+}
+.footer .nextBtn .nextTxt {
+  margin-top: 100px;
+  text-align: center;
+  color: #ded8ed;
+  font-size: 1.5rem;
+}
+.footer .nextBtn .nextImg {
+  position: absolute;
+  left: 55px;
+  top: 3px;
+  width: 27px;
+  height: 27px;
+}
+
+.box .tgof {
+  display: block;
+}
+.box .tgon {
+  display: none;
+}
+.box.on .tgof {
+  display: none;
+}
+.box.on .tgon {
+  display: block;
+}
+.footer .listMain {
+  width: calc(100% - 100px);
+  text-align: left;
+  font-size: 2.75em;
+}

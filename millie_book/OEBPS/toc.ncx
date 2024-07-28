@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"><ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="urn:uuid:e17648e6-e53e-4f9b-b9f6-1d555b73067b" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>여자는 체력</text>
+  </docTitle>
+  <navMap>
+
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>이 책이 궁금한 당신에게</text>
+      </navLabel>
+      <content src="Text/cover.xhtml"/>
+    </navPoint>
+
+    <navPoint id="navPoint-2" playOrder="2">
+      <navLabel>
+        <text>1장 로물루스 왕이 세운 로마! - 어떻게 공화정으로 바뀌었을까?</text>
+      </navLabel>
+      <content src="Text/main1.xhtml"/>
+    </navPoint>
+
+    <navPoint id="navPoint-3" playOrder="3">
+      <navLabel>
+        <text>2장 크라수스, 폼페이우스 그리고 카이사르 - 그들은 로마의 발전에 어떤 영향을 미쳤을까?</text>
+      </navLabel>
+      <content src="Text/main2.xhtml"/>
+    </navPoint>
+
+    <navPoint id="navPoint-4" playOrder="4">
+      <navLabel>
+        <text>3장 로마를 반석 위에 세운 최고의 영웅은?</text>
+      </navLabel>
+      <content src="Text/main3.xhtml"/>
+    </navPoint>
+
+    <navPoint id="navPoint-5" playOrder="5">
+      <navLabel>
+        <text>4장 5현제 시대가 역사상 가장 행복했던 시대로 꼽히는 이유는?</text>
+      </navLabel>
+      <content src="Text/main4.xhtml"/>
+    </navPoint>
+
+    <navPoint id="navPoint-6" playOrder="6">
+      <navLabel>
+        <text>5장 막장 황제들의 등장, 그들은 어떻게 로마를 멸망의 길로 이끌었나?</text>
+      </navLabel>
+      <content src="Text/main5.xhtml"/>
+    </navPoint>
+
+    <navPoint id="navPoint-7" playOrder="7">
+      <navLabel>
+        <text>6장 로마가 멸망할 수밖에 없었던 가장 큰 이유는? </text>
+      </navLabel>
+      <content src="Text/main6.xhtml"/>
+    </navPoint>
+
+    <navPoint id="navPoint-8" playOrder="8">
+      <navLabel>
+        <text>북퀴즈 OX</text>
+      </navLabel>
+      <content src="Text/quiz.xhtml"/>
+    </navPoint>
+
+  </navMap>
+</ncx>
